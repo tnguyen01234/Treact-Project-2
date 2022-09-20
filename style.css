@@ -176,3 +176,81 @@ input {
 }
 
 /* Features */
+
+.feature__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature__lable {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.feature__title {
+    letter-spacing: 1.2px;
+    line-height: 72px;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    max-width: 1024px;
+    width: 100%;
+    color: #243e63;
+}
+
+.feature__para {
+    color: #7c8ba1;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.95px;
+    max-width: 576px;
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.feature__box {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 32px 8px;
+    margin: 0 16px;
+    margin: 0 auto;
+}
+
+.img__container {
+    padding: 20px;
+    border: solid 1px rgb(226, 232, 240);
+    border-radius: 9999px;
+text-align: center;
+width: 66px;
+height: 66px;
+}
+
+.text__container {
+    margin: 8px 0 0 16px;
+    line-height: 24px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.description {
+    color: #7c8ba1;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 16px;
+}
