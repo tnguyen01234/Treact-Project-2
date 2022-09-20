@@ -1,21 +1,178 @@
 /* Reference https://treact.owaiskhan.me/components/landingPages/SaaSProductLandingPage */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
 
 * {
     box-sizing: border-box;
     border-width: 0px;
     border-style: solid;
     border-color: rgb(226, 232, 240);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    padding: 32px;
+}
+
 .row {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.purple__text {
+    color: #6415ff;
+}
+/* Navigation Bar */
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__brand {
+display: flex;
+align-items: center;
+margin-right: 24px;
+padding-bottom: 4px;
+font-size: 24px;
+font-weight: 900;
+color: #243e63;
+}
+
+.nav__img {
+    height: 40px;
+    margin-right: 12px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin: 0 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #243e63;
+}
+
+.login__link {
+    margin-left: 48px;
+}
+
+.signup__link {
+    padding: 12px 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+border-radius: 9999px;
+background-color: #6415ff ;
+color: #f7fafc;
+}
+
+/* Landing Content */
+
+.landing__contents {
+    display: flex;
+margin: 0 auto;
+padding: 96px 0;
+align-items: center;
 }
 
 
+.right__content {
+    max-width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing__img {
+    width: 100%;
+
+}
+
+.left__content {
+    max-width: 40%;
+}
+
+.landing__title {
+    font-size: 48px;
+    text-align: left;
+}
+
+.landing__para {
+    margin: 32px 0px;
+    font-size: 18px;
+    color: #243e63;
+    text-align: left;
+    text-size-adjust: 100%;
+    line-height: 27px;
+
+}
+
+.input__and__button {
+width: 100%;
+max-width: 448px;
+position: relative;
+text-align: center;
+}
+
+button {
+    border-radius: 9999px;
+    border-style: solid;
+    background: #6415ff;
+    color: white;
+    margin: 8px 8px 8px 0px;
+    padding: 16px 0px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    width: 160px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input {
+    padding: 20px 192px 20px 32px;
+    border-width: 2px;
+    border-radius: 9999px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.landing__footer {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.landing__footer__img {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    opacity: 0.5;
+    padding-right: 128px;
+}
+
+.landing__footer p {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #a0aec0;
+}
+
+/* Features */
