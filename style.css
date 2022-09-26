@@ -1,5 +1,5 @@
 /* Reference https://treact.owaiskhan.me/components/landingPages/SaaSProductLandingPage */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -480,6 +480,37 @@ align-items: center;
 
     /* Pricing Plans */
 
+.three__plans {
+    display: flex;
+flex-direction: row;
+align-items: stretch;
+position: relative;
+}
+    
+.first__plan {
+    width: 100%;
+    max-width: 384px;
+    padding: 8px 32px 0px 32px;
+    margin-top: 64px;
+    margin-right: 32px;
+    border: solid;
+    border-top: none;
+    position: relative;
+    border-radius: 8px;
+    border-color: rgb(226 232 240);
+}
+.planhighlight {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    position: absolute;
+
+}
+
     .pricing__header__container {
         display: flex;
         flex-direction: column;
@@ -487,4 +518,86 @@ align-items: center;
         margin-top: 40px;
     }
 
+   
+    .personal__highlight {
+        background: linear-gradient(115deg, rgb(56 178 172) 0%, rgb(129 230 217) 100%);
+    }
     
+.header__box {
+    max-width: 384px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+}
+
+
+
+.name {
+    font-size: 20px;
+    color: #1a202c;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4px 0px;
+}
+
+.duration {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #a0aec0;
+}
+
+.middle__box {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: rgb(226 232 240);
+    margin: 0px -32px;
+
+}
+
+.main__feature {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: center;
+    color: #1a202c;
+}
+
+.feature {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 24px;
+    color: rgb(113 128 150);
+    font-weight: 500;
+}
+
+.bottom__box {
+    padding: 32px 64px;
+    text-align: center;
+}
+
+.buynow__btn {
+    background: linear-gradient(115deg, rgb(56 178 172) 0%, rgb(129 230 217) 100%);
+    width: 100%;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(247 250 252);
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
