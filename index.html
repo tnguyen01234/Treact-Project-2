@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Assets/" type="text/css">
   </head>
   <body>
     <section id="landing">
@@ -21,12 +23,12 @@
               Treact
             </a>
             <div class="nav__links">
-              <a class="link" href="">About</a>
-              <a class="link" href="">Blog</a>
-              <a class="link" href="">Pricing</a>
-              <a class="link" href="">Contact Us</a>
-              <a class="link login__link" href="">Login</a>
-              <a class="link signup__link" href="" class="signup__btn"
+              <a class="link hover__link" href="">About</a>
+              <a class="link hover__link" href="">Blog</a>
+              <a class="link hover__link" href="">Pricing</a>
+              <a class="link hover__link" href="">Contact Us</a>
+              <a class="link hover__link login__link" href="">Login</a>
+              <a class="link signup__link" href=""
                 >Sign Up</a
               >
             </div>
@@ -331,7 +333,7 @@
             </p>
           </div>
           <div class="three__plans">
-            <div class="first__plan">
+            <div class="plan">
               <div class="planhighlight personal__highlight"></div>
               <div class="header__box">
                 <span class="name">PERSONAL</span>
@@ -349,11 +351,10 @@
                 <button class="buynow__btn">Buy Now</button>
               </div>
             </div>
-            <div class="first__plan">
-              <div class="planhighlight personal__highlight"></div>
+            <div class="plan second__plan">
               <div class="header__box">
-                <span class="name">PERSONAL</span>
-                <span class="price">$17.99</span>
+                <span class="name">BUSINESS</span>
+                <span class="price">$37.99</span>
                 <span class="duration">MONTHLY</span>
               </div>
               <div class="middle__box">
@@ -364,15 +365,15 @@
                 <span class="feature">Basic Assistance</span>
               </div>
               <div class="bottom__box">
-                <button class="buynow__btn">Buy Now</button>
+                <button class="buynow__btn second__btn">Buy Now</button>
               </div>
             </div>
           
-            <div class="first__plan">
-              <div class="planhighlight personal__highlight"></div>
+            <div class="plan">
+              <div class="planhighlight personal__highlight enterprise__highlight"></div>
               <div class="header__box">
-                <span class="name">PERSONAL</span>
-                <span class="price">$17.99</span>
+                <span class="name">Enterprise</span>
+                <span class="price">$57.99</span>
                 <span class="duration">MONTHLY</span>
               </div>
               <div class="middle__box">
@@ -383,7 +384,7 @@
                 <span class="feature">Basic Assistance</span>
               </div>
               <div class="bottom__box">
-                <button class="buynow__btn">Buy Now</button>
+                <button class="buynow__btn enterprise__btn">Buy Now</button>
               </div>
             </div>
           </div>
@@ -391,4 +392,79 @@
       </div>
     </section>
   </body>
+  <footer>
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__five__columns">
+          <div class="footer__column">
+            <h5 class="footer__header">MAIN</h5>
+            <ul class="footer__links">
+              <li class="footer__link">
+                <a class="link__hover--effect" href="#">Blog</a>
+              </li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">FAQs</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Support</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">About Us</a></li>
+            </div>
+          <div class="footer__column">
+            <h5 class="footer__header">PRODUCT</h5>
+            <ul class="footer__links">
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Log In</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Personal</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Business</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Team</a></li>
+            </div>
+          <div class="footer__column">
+            <h5 class="footer__header">Press</h5>
+            <ul class="footer__links">
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Logos</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Events</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Stories</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Office</a></li>
+            </div>
+          <div class="footer__column">
+            <h5 class="footer__header">TEAM</h5>
+            <ul class="footer__links">
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Career</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Founders</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Culture</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Onboarding</a></li>
+            </div>
+          <div class="footer__column">
+            <h5 class="footer__header">LEGAL</h5>
+            <ul class="footer__links">
+              <li class="footer__link"> <a class="link__hover--effect" href="#">GDPR</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Privacy Policy</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Terms of Service</a></li>
+              <li class="footer__link"> <a class="link__hover--effect" href="#">Disclaimer</a></li>
+            </div>
+        </div>
+        <div class="seperation__line"></div>
+        <div class="anchor__bar">
+          <div class="footer__logo">
+            <img class="footer__img" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+            <h5 class="footer__title">Treact Inc.</h5>
+          </div>
+          <p class="footer__copyright">© 2022 Treact Inc. All Rights Reserved.</p>
+          <div class="social__media">
+            <div class="logo__container">
+            <a class="logo__icons" href="www.facebook.com">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="logo__container">
+            <a class="logo__icons" href="www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="logo__container">
+            <a class="logo__icons" href="www.youtube.com">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
