@@ -52,6 +52,7 @@ a {
     letter-spacing: 1.6px;
     line-height: 24px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .para {
@@ -306,6 +307,7 @@ font-weight: 600;
 margin: 0 auto;
 padding: 96px 0;
 align-items: center;
+max-width: 1280px;
 }
 
 
@@ -873,11 +875,14 @@ margin-left: auto;
 .footer__five__columns {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__column {
     color: #f7fafc;
     text-align: left;
+    padding: 0px 16px;
+    margin-top: 48px;
 }
 
 .footer__header {
@@ -981,7 +986,7 @@ justify-content: center;
 }
 
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-  @media (max-width: 1100px) {
+  @media (max-width: 1024px) {
     .landing__contents {
         flex-direction: column;
     }
@@ -1039,8 +1044,184 @@ justify-content: center;
     .btn__menu {
         display: flex;
     }
+
+    .three__plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+    
+        .feature__box {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 0 16px;
+            max-width: 384px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .feature__box__title {
+            display: flex;
+    justify-content: center;
+        }
+
+        .img__container {
+            position: relative;
+            right: -9px;
+        }
+
+        .text__container {
+            text-align: center;
+        }
+    
+        .para__features {
+            font-size: 14px;
+        }
+    
+        .vertical__spacer {
+            padding-top: 40px;
+            width: 650px;
+        }
+
+        .plan {
+            margin-right: 0px;
+        }
   }
 
+  @media (max-width: 764px) {
+    .quality__row {
+        flex-direction: column-reverse;
+    }
+
+    .quality__img__container , .value__large__img__container {
+        width: 100%;
+        max-width: 500px;
+  }
+
+  .quality__work {
+    margin: 0px;
+    align-items: center;    
+    max-width: 448px;
+    width: 100%;
+    margin-top: 64px;
+  }
+
+  .quality__title , .value__title {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    line-height: 45px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .quality__para , .value__para {
+    font-size: 14px;
+    line-height: 22.7px;
+    text-align: center;
+  }
+
+
+  .steps__row {
+    flex-direction: column;
+  }
+
+  .step__img__container {
+width: 100%;
+max-width: 448px;
+  }
+
+  .step__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .steps__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .step__instruction__box {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+
+  .value__content {
+    align-items: center;
+    text-align: center;
+  }
+  .value__row {
+    flex-direction: column-reverse;
+  }
+
+  .value__container {
+    margin: 0;
+    max-width: 448px;
+    width: 100%;
+  }
+
+  .affordable__professionalism {
+    flex-direction: column;
+    max-width: 320px;
+    align-items: center;
+    justify-content: center;;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .value__header__box {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:  center;
+  }
+
+  .value__description {
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .value__box {
+    margin-right: 0px;
+  }
+
+  .value__btn__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__five__columns {
+    flex-wrap: wrap;
+    max-width: 640px;
+    justify-content: center;
+}
+
+.footer__column {
+    width: 33%;
+}
+
+.anchor__bar {
+    flex-direction: column;
+}
+
+.footer__copyright {
+    margin-top: 32px;
+}
+
+.social__media {
+    margin-top: 32px;
+}
+  }
   @media (max-width: 640px) {
 
     .input__and__button {
@@ -1074,5 +1255,10 @@ justify-content: center;
         padding-top: 40px;
         width: 650px;
     }
+.step__content {
+    padding-bottom: 0px;
+}
 
   }
+
+
